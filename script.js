@@ -20,11 +20,7 @@ let tela = "";
 n1.addEventListener("click", function (){
   tela =  tela + "" + 1
     teste.innerText = tela
-}) 
-n1.addEventListener("click", function (){
-  tela =  tela + "" + 1
-    teste.innerText = tela
-}) 
+})
 n2.addEventListener("click", function (){
   tela =  tela + "" + 2
   teste.innerText = tela
@@ -87,4 +83,5 @@ del.addEventListener("click", function(){
   tela = t1
   teste.innerText = tela
 })
+
 
