@@ -53,6 +53,10 @@ n9.addEventListener("click", function (){
   tela =  tela + "" + 9
     teste.innerText = tela
 }) 
+n0.addEventListener("click", function (){
+  tela =  tela + "" + 0
+    teste.innerText = tela
+}) 
 nmais.addEventListener("click", function(){
   tela = tela + "" + "+"
   teste.innerText = tela
